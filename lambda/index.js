@@ -83,6 +83,8 @@ async function send_mess(num,cn) {
         }
     }
 
+    client.close();
+
 
     return ({
         statusCode: 200,
