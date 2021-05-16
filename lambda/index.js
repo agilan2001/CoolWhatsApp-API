@@ -53,11 +53,11 @@ async function send_mess(num,cn) {
 
     if (!client.conn) {
         await client.connectSlim({
-            "clientID": "2P9GSbrIEr+JC0a2WbVFIg==",
-            "serverToken": "1@bI6y2sMIQyPhE2CqngZm+rPHMJVBsQBjmO6pNzDkGCa4lZZc7G4I8sRRlQ+K/vW/T0VpvGdbcmw/eA==",
-            "clientToken": "iXJ/2GXj5/2i4LPETz8Ao3BUi9b6b3PPJMm+B+r+1jg=",
-            "encKey": "mJcjZJBvlfCPHkCu4Xhm9bXOiNbKey+eXMuBkXpuhKI=",
-            "macKey": "eBN/HnQTPJrHqG5P3dQEp4tpXxoNTyIhaAX3VTvdvSc="
+            "clientID": "j3JrU90xAwe8L/zlazQf8w==",
+            "serverToken": "1@xt53LuTT+62J9Ac8nE16vOoD8DBxLE6Z+zutNOYcGcO3qN5j19YI2uQX2AnFL7l+znVMaLPZ6y8+pg==",
+            "clientToken": "UdoNXveVr+ml+BS4FyCnoj9N4S8Ut7JH9xf49u4lynQ=",
+            "encKey": "Sg2KKoxxW6sgarIddSRN/TBz9jLGa7g6L5lmVMPuxW4=",
+            "macKey": "Vhap750h1kpgLF55Uqpz07eVm3Z1AQ7g6OE4kfhNzPE="
         }, 20000)
     }
 
